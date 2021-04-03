@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 36px Arial, sans-serif;
+}
+
+#main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #203E5B;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#info-container {
+    margin: 0 24px;
+    height: 144px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chord {
+    margin: 0 2em;
+    font-weight: bold;
+}
+
+.notes {
+    margin: 0 2em;
+    color: #444;
+}
+
+#keyboard-container {
+    margin: 0;
+    padding: 24px;
+}
